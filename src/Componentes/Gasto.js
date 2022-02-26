@@ -1,5 +1,5 @@
 import React from "react";
-const Gasto = ({gasto}) => {
+const Gasto = ({ gasto }) => {
   return (
     <li className="gastos">
       <p>
@@ -8,7 +8,6 @@ const Gasto = ({gasto}) => {
       </p>
     </li>
   );
-  console.log(gasto);
 };
 
 export default Gasto;
